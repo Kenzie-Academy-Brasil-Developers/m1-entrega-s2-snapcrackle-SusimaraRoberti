@@ -1,0 +1,41 @@
+Snap Crackle,,,,,,,,-
+,,if (SnapCrackle),else if (Crackle),else if (Snap),else,,creckle,-
+i,i<=maxValue,(ímpar e multiplo),(multiplo),(ímpar),(numero),i++,return,-
+1,-,-,-,-,-,-,-,-
+1,true,-,-,-,-,-,-,-
+1,true,false,false,true,-,1+1,Snap,-
+2,true,false,false,false,true,2+1,"2,",-
+3,true,false,false,true,-,3+1,Snap,-
+4,true,false,false,false,true,4+1,"4,",-
+5,true,true,-,-,-,5+1,SanpCrackle,-
+6,true,false,false,false,true,6+1,"6,",-
+7,true,false,false,true,-,7+1,Snap,-
+8,true,false,false,false,true,8+1,"8,",--
+9,true,false,false,true,-,9+1,Snap,-
+10,true,false,true,-,-,10+1,Crakle,-
+11,true,false,false,true,-,11+1,Snap,-
+12,true,false,false,false,true,stop,"12,",-
+,,,,,,,,-
+-,-,-,-,-,-,-,-,-
+Snap Crackle Prime,,,,,,,,
+,,if (prime),if (SnapCrackle),else if (Crackle),else if (Snap),else,,snapCracklePrime
+"i ",i<=maxValue,Primo?,(ímpar e multiplo),(multiplo),(ímpar),(numero),i++,return
+1,-,-,-,-,-,-,-,-
+1,true,-,-,-,-,-,-,-
+1,true,false,false,false,true,-,1+1,Snap
+2,true,true,false,false,false,-,2+1,Prime
+3,true,true,false,false,true,-,3+1,SnapPrime
+4,true,false,false,false,false,true,4+1,"4,"
+5,true,true,true,-,-,-,5+1,SnapCracklePrime
+6,true,false,false,false,false,true,6+1,"6,"
+7,true,true,false,false,true,-,7+1,SnapPrime
+8,true,false,false,false,false,true,8+1,"8,"
+9,true,false,false,false,true,-,9+1,Snap
+10,true,false,false,true,false,-,10+1,Crackle
+11,true,true,false,false,true,-,11+1,SnapPrime
+12,true,false,false,false,false,true,12+1,"12,"
+13,true,true,false,false,true,-,13+1,SnapPrime
+14,true,false,false,false,false,true,14+1,"14,"
+15,true,false,true,-,-,-,stop,SnapCrackle
+,,,,,,,,
+,,,,,,,,
